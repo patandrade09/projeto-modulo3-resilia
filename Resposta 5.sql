@@ -1,0 +1,1 @@
+select count(laps) from results;
