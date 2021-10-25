@@ -1,4 +1,4 @@
-**Resilia Educação 🦉 **
+**Resilia Educação ** 🦉
 
 ## Projeto Final - Módulo 3 - Banco de Dados
 
