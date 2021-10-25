@@ -2,7 +2,7 @@
 
 ## Projeto Final - Módulo 3 - Banco de Dados
 
- ## ***TEMA: Formula 1***
+ ## ***TEMA: Formula 1*** 🏎️
 
  **Integrantes - T8 - Grupo 6**
  - Larissa Silva
