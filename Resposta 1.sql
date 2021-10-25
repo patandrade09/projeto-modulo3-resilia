@@ -1,10 +1,11 @@
- select * from drivers where forename = "Ayrton" and surname = "Senna";
  -- Quantas corridas o Ayrton Senna venceu? --
 SELECT 
-    r.driverId, r.position, count(*) as corridasTotais 
-FROM
-   results AS r
-        where driverId = 102 and position = 1 group by driverId;
+   d.forename, d.surname, r.driverId, r.position, count(*) as corridasTotais 
+   from
+   drivers d 
+   inner join
+   results r
+   on d.driverId = r.driverId
+   where r.driverId = 102 and r.position = 1 group by r.driverId;
 
-        
-        
+
